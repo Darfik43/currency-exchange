@@ -1,18 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="identifier.sqlite" uuid="e31f4e91-8f7a-4c84-86f7-043210e1afcf">
+    <data-source source="LOCAL" name="identifier.sqlite" uuid="1473833f-e290-4f98-bd43-f52ca66cd64c">
       <driver-ref>sqlite.xerial</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:identifier.sqlite</jdbc-url>
-      <working-dir>$ProjectFileDir$</working-dir>
-    </data-source>
-    <data-source source="LOCAL" name="identifier" uuid="d8de1a47-7255-4d31-a83f-1a9afa7b51b8">
-      <driver-ref>sqlite.xerial</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:D:\Projects\CurrencyExchanger\CurrencyExchanger\identifier.sqlite</jdbc-url>
+      <jdbc-url>jdbc:sqlite:D:\Projects\CurrencyExchanger\CurrencyExchanger\src\main\resources\identifier.sqlite</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
       <libraries>
         <library>

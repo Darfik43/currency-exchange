@@ -1,5 +1,6 @@
 package com.example.currencyexchanger.repositories;
 
+import com.example.currencyexchanger.ConnectionDB;
 import com.example.currencyexchanger.model.Currency;
 
 import javax.sql.DataSource;
@@ -14,6 +15,7 @@ import java.util.Optional;
 public class CurrencyRepository implements CrudRepository<Currency> {
 
     private final DataSource dataSource;
+    ConnectionDB connectionDB = new ConnectionDB();
 
     public CurrencyRepository(DataSource dataSource) {
         this.dataSource = dataSource;
